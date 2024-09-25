@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Builder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="icon" type="image/x-icon" href="icon.webp">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        Start creating forms...
+    </div>
+
+    <div class="container">
+        <div class="main-container">
+            <div class="container-heading">
+                Add New Field
+            </div>
+            <div class="field-type">
+                <div class="title">Field Type</div>
+                <div class="dropdown">
+                    <input type="text" id='category' placeholder="Choose the type">
+                    <div id="dropdownList" class="dropdown-content">
+                    </div>
+                </div>
+            </div>
+            <div class="field-label">
+                <div class="label">Field Label</div>
+                <input type="text" id='input-label' placeholder="Enter the field label">
+
+            </div>
+            <div class="add">
+                <button class="add-button" onclick="add()">Add</button>
+            </div>
+        </div>
+        <div class="sub-container">
+            <div class="sub-heading">
+                Preview
+            </div>
+            <div class="preview-content">
+
+            </div>
+            <!-- <form>
+                <div>Question 1 </div>
+                <input type="radio" id="option1" name="group1" value="Option 1">
+                <label for="option1">Option 1</label><br>
+
+                <input type="radio" id="option2" name="group1" value="Option 2">
+                <label for="option2">Option 2</label><br>
+
+                <input type="radio" id="option3" name="group1" value="Option 3">
+                <label for="option3">Option 3</label>
+            </form> -->
+
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div>Made with Love by Atan.</div>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/username_atan" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/atan_mehdi" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/atan-mehdi-7261071bb" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Atan-Mehdi" target="_blank"><i class="fab fa-github"></i></a>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
