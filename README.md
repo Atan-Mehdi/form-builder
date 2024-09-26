@@ -6,7 +6,7 @@ Welcome to the **Form Builder** project! This application dynamically generates 
 
 ## Live Demo
 
-Check out the live project: [Form Builder]((https://github.com/Atan-Mehdi/form-builder/blob/main/ss_1.png))
+Check out the live project: [Form Builder](https://github.com/Atan-Mehdi/form-builder/blob/main/ss_1.png)
 
 ## Table of Contents
 
