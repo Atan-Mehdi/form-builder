@@ -6,7 +6,7 @@ Welcome to the **Form Builder** project! This application dynamically generates 
 
 ## Live Demo
 
-Check out the live project: [Form Builder](https://github.com/Atan-Mehdi/form-builder/blob/main/ss_1.png)
+Check out the live project: [Form Builder](https://atan-mehdi.github.io/form-builder/)
 
 ## Table of Contents
 
@@ -20,7 +20,7 @@ Check out the live project: [Form Builder](https://github.com/Atan-Mehdi/form-bu
 
 The Form Builder allows users to dynamically add input fields of different types (text, checkboxes, radio buttons) to create a custom form. Each field added is displayed in a real-time preview area, providing immediate feedback.
 
-![Form Builder Preview](https://utfs.io/f/9174ecc0-b9c4-454c-9db6-2d6f1ed6138d-ng35bm.png)
+![Form Builder Preview](https://github.com/Atan-Mehdi/form-builder/blob/main/ss_1.png)
 
 > Note: The UI shown above is an example, and my project has been customized further.
 
